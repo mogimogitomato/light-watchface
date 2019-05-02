@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wear.widget.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.wear.widget.BoxInsetLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/custom_background"
+        android:padding="@dimen/text_area_padding"
+        app:boxedEdges="all">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="@dimen/text_area_margin_top"
+                android:text="@string/date_text_default"
+                android:textAlignment="center"
+                android:textColor="@color/digital_text"
+                android:textSize="@dimen/text_date_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/date"
+                android:layout_centerInParent="true"
+                android:text="@string/time_text_default"
+                android:textAlignment="center"
+                android:textColor="@color/digital_text"
+                android:textSize="@dimen/text_time_size"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </android.support.wear.widget.BoxInsetLayout>
+</android.support.wear.widget.BoxInsetLayout>

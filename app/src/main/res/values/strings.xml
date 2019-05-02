@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">lightwatch</string>
+    <string name="message">Watch face tapped</string>
+    <string name="my_digital_name">LightWatchFace</string>
+    <string name="date_text_default">2019/05/01(Wed)</string>
+    <string name="time_text_default">21:21</string>
+</resources>

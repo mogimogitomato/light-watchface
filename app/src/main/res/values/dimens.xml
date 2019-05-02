@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_date_size">20dp</dimen>
+    <dimen name="text_time_size">32dp</dimen>
+    <dimen name="text_area_padding">40dp</dimen>
+    <dimen name="text_area_margin_top">80dp</dimen>
+</resources>
